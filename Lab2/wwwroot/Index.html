@@ -1,0 +1,89 @@
+﻿<!-- index.html -->
+<!doctype html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Trang chủ - Web Layout</title>
+    <meta name="description" content="Mẫu index.html cho layout web cơ bản, responsive, có header, footer và khu vực nội dung." />
+    <link rel="stylesheet" href="/css/Style.css" />
+</head>
+<body>
+    <div class="site">
+        <header>
+            <div class="container topbar">
+                <div class="brand">
+                    <div class="logo">W</div>
+                    <div>
+                        WebLayout
+                        <div class="subtitle">Mẫu giao diện cơ bản</div>
+                    </div>
+                </div>
+
+                <nav aria-label="Chính">
+                    <ul>
+                        <li><a href="#">Trang chủ</a></li>
+                        <li><a href="#">Giới thiệu</a></li>
+                        <li><a href="#">Dịch vụ</a></li>
+                        <li><a href="#">Liên hệ</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="container hero">
+                <div class="hero-text">
+                    <h1>Chào mừng đến với WebLayout — Mẫu HTML đơn giản và linh hoạt</h1>
+                    <p>Template này dùng cho dự án nhỏ, prototype hoặc làm base cho layout phức tạp hơn. Responsive, dễ chỉnh sửa và tích hợp vào bất kỳ hệ thống template nào.</p>
+                    <div class="hero-buttons">
+                        <a href="#" class="btn-primary">Bắt đầu</a>
+                        <a href="#" class="btn-secondary">Tìm hiểu thêm</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3>Thông tin nhanh</h3>
+                    <p>Sửa nội dung trong phần <code>&lt;main&gt;</code> và các class để phù hợp với project. Bạn có thể tách CSS ra file riêng <code>Style.css</code>.</p>
+                    <ul>
+                        <li>Responsive grid</li>
+                        <li>Header + Footer</li>
+                        <li>Thiết kế sạch, dễ tùy biến</li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <main class="container">
+            <section class="grid">
+                <article class="box">
+                    <h4>Card 1</h4>
+                    <p>Ví dụ nội dung cho card. Thay bằng component thật của bạn.</p>
+                </article>
+                <article class="box">
+                    <h4>Card 2</h4>
+                    <p>Ví dụ nội dung cho card. Thay bằng component thật của bạn.</p>
+                </article>
+                <article class="box">
+                    <h4>Card 3</h4>
+                    <p>Ví dụ nội dung cho card. Thay bằng component thật của bạn.</p>
+                </article>
+            </section>
+
+            <section class="content-section">
+                <div class="box">
+                    <h3>Phần nội dung lớn</h3>
+                    <p>Đây là khu vực bạn có thể đặt bài viết, form, danh sách sản phẩm hoặc bảng điều khiển.</p>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="container footer-content">
+                <div id="copyright">&copy; 2025 WebLayout — Bản quyền thuộc về bạn</div>
+                <div class="contact">Liên hệ: email@example.com</div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="/js/Script.js"></script>
+</body>
+</html>

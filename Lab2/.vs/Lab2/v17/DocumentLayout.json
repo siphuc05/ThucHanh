@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\LaptrinhWeb\\Demo\\Thuchanh\\Lab2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{43059719-FC80-4DA7-AEA1-FE97C27857B7}|Lab2.csproj|d:\\laptrinhweb\\demo\\thuchanh\\lab2\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{43059719-FC80-4DA7-AEA1-FE97C27857B7}|Lab2.csproj|solutionrelative:wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43059719-FC80-4DA7-AEA1-FE97C27857B7}|Lab2.csproj|d:\\laptrinhweb\\demo\\thuchanh\\lab2\\views\\shared\\topnav.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{43059719-FC80-4DA7-AEA1-FE97C27857B7}|Lab2.csproj|solutionrelative:views\\shared\\topnav.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43059719-FC80-4DA7-AEA1-FE97C27857B7}|Lab2.csproj|d:\\laptrinhweb\\demo\\thuchanh\\lab2\\views\\shared\\mylayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{43059719-FC80-4DA7-AEA1-FE97C27857B7}|Lab2.csproj|solutionrelative:views\\shared\\mylayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43059719-FC80-4DA7-AEA1-FE97C27857B7}|Lab2.csproj|d:\\laptrinhweb\\demo\\thuchanh\\lab2\\wwwroot\\js\\script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{43059719-FC80-4DA7-AEA1-FE97C27857B7}|Lab2.csproj|solutionrelative:wwwroot\\js\\script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43059719-FC80-4DA7-AEA1-FE97C27857B7}|Lab2.csproj|d:\\laptrinhweb\\demo\\thuchanh\\lab2\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{43059719-FC80-4DA7-AEA1-FE97C27857B7}|Lab2.csproj|solutionrelative:wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43059719-FC80-4DA7-AEA1-FE97C27857B7}|Lab2.csproj|d:\\laptrinhweb\\demo\\thuchanh\\lab2\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{43059719-FC80-4DA7-AEA1-FE97C27857B7}|Lab2.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43059719-FC80-4DA7-AEA1-FE97C27857B7}|Lab2.csproj|d:\\laptrinhweb\\demo\\thuchanh\\lab2\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{43059719-FC80-4DA7-AEA1-FE97C27857B7}|Lab2.csproj|solutionrelative:wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43059719-FC80-4DA7-AEA1-FE97C27857B7}|Lab2.csproj|d:\\laptrinhweb\\demo\\thuchanh\\lab2\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{43059719-FC80-4DA7-AEA1-FE97C27857B7}|Lab2.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 266,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TopNav.cshtml",
+              "DocumentMoniker": "D:\\LaptrinhWeb\\Demo\\Thuchanh\\Lab2\\Views\\Shared\\TopNav.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\TopNav.cshtml",
+              "ToolTip": "D:\\LaptrinhWeb\\Demo\\Thuchanh\\Lab2\\Views\\Shared\\TopNav.cshtml",
+              "RelativeToolTip": "Views\\Shared\\TopNav.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-07T13:44:47.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Script.js",
+              "DocumentMoniker": "D:\\LaptrinhWeb\\Demo\\Thuchanh\\Lab2\\wwwroot\\js\\Script.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\Script.js",
+              "ToolTip": "D:\\LaptrinhWeb\\Demo\\Thuchanh\\Lab2\\wwwroot\\js\\Script.js",
+              "RelativeToolTip": "wwwroot\\js\\Script.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-11-07T13:40:16.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Style.css",
+              "DocumentMoniker": "D:\\LaptrinhWeb\\Demo\\Thuchanh\\Lab2\\wwwroot\\css\\Style.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\Style.css",
+              "ToolTip": "D:\\LaptrinhWeb\\Demo\\Thuchanh\\Lab2\\wwwroot\\css\\Style.css",
+              "RelativeToolTip": "wwwroot\\css\\Style.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAALUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-07T13:39:30.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MyLayout.cshtml",
+              "DocumentMoniker": "D:\\LaptrinhWeb\\Demo\\Thuchanh\\Lab2\\Views\\Shared\\MyLayout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\MyLayout.cshtml",
+              "ToolTip": "D:\\LaptrinhWeb\\Demo\\Thuchanh\\Lab2\\Views\\Shared\\MyLayout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\MyLayout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-07T13:37:00.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "site.js",
+              "DocumentMoniker": "D:\\LaptrinhWeb\\Demo\\Thuchanh\\Lab2\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\site.js",
+              "ToolTip": "D:\\LaptrinhWeb\\Demo\\Thuchanh\\Lab2\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-11-07T13:36:27.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\LaptrinhWeb\\Demo\\Thuchanh\\Lab2\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "D:\\LaptrinhWeb\\Demo\\Thuchanh\\Lab2\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAAL0AAAAAAAAAAAAowMoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-07T13:35:48.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.html",
+              "DocumentMoniker": "D:\\LaptrinhWeb\\Demo\\Thuchanh\\Lab2\\wwwroot\\Index.html",
+              "RelativeDocumentMoniker": "wwwroot\\Index.html",
+              "ToolTip": "D:\\LaptrinhWeb\\Demo\\Thuchanh\\Lab2\\wwwroot\\Index.html",
+              "RelativeToolTip": "wwwroot\\Index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-11-07T13:33:28.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\LaptrinhWeb\\Demo\\Thuchanh\\Lab2\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\LaptrinhWeb\\Demo\\Thuchanh\\Lab2\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-07T13:31:16.297Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
