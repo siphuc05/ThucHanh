@@ -1,0 +1,90 @@
+﻿using Microsoft.EntityFrameworkCore;
+
+namespace Lab4_CodeFirst.Models.Data
+{
+    public class DbInitalizer
+    {
+        public static void Initialize(IServiceProvider serviceProvider)
+        {
+            using (var context = new SchoolContext(
+                serviceProvider.GetRequiredService<DbContextOptions<SchoolContext>>()))
+            {
+                context.Database.EnsureCreated();
+
+                // Nếu đã có Major thì không seed nữa
+                if (context.Majors.Any())
+                {
+                    return;
+                }
+
+                // ===== SEED MAJOR =====
+                var majors = new Major[]
+                {
+                    new Major { MajorName = "IT" },
+                    new Major { MajorName = "Economics" },
+                    new Major { MajorName = "Mathematics" }
+                };
+
+                foreach (var major in majors)
+                {
+                    context.Majors.Add(major);
+                }
+                context.SaveChanges();
+
+                // ===== SEED LEARNER =====
+                var learners = new Learner[]
+                {
+                    new Learner
+                    {
+                       FirstMidName = "Carson",
+                        LastName = "Alexander",
+                        EnrollmentDate = DateTime.Parse("2005-09-01"),
+                        MajorId = 1
+                    },
+                    new Learner
+                    {
+                        FirstMidName = "Meredith",
+                        LastName = "Alonso",
+                        EnrollmentDate = DateTime.Parse("2002-09-01"),
+                        MajorId = 2
+                    }
+                };
+
+                foreach (var l in learners)
+                {
+                    context.Learners.Add(l);
+                }
+                context.SaveChanges();
+
+                // ===== SEED COURSE =====
+                var courses = new Course[]
+                {
+                    new Course { CourseId = 1050, Title = "Chemistry", Credits = 3 },
+                    new Course { CourseId = 4022, Title = "Microeconomics", Credits = 3 },
+                    new Course { CourseId = 4041, Title = "Macroeconomics", Credits = 3 }
+                };
+
+                foreach (var c in courses)
+                {
+                    context.Courses.Add(c);
+                }
+                context.SaveChanges();
+
+                // ===== SEED ENROLLMENT =====
+                var enrollments = new Enrollment[]
+                {
+                    new Enrollment { LearnerId = 1, CourseId = 1050, Grade = 5.5f },
+                    new Enrollment { LearnerId = 1, CourseId = 4022, Grade = 7.5f },
+                    new Enrollment { LearnerId = 2, CourseId = 1050, Grade = 3.5f },
+                    new Enrollment { LearnerId = 2, CourseId = 4041, Grade = 7f }
+                };
+
+                foreach (var e in enrollments)
+                {
+                    context.Enrollments.Add(e);
+                }
+                context.SaveChanges();
+            }
+        }
+    }
+}
