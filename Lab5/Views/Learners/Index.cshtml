@@ -1,0 +1,59 @@
+﻿@model IEnumerable<Lab5.Models.Learner>
+
+@{
+    ViewData["Title"] = "Danh sách sinh viên";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 class="mb-4 text-primary">Danh sách Sinh viên</h2>
+
+<div class="d-flex justify-content-between align-items-center mb-3">
+    <h4 class="mb-0">Lọc theo ngành</h4>
+    <a asp-action="Create" class="btn btn-success">
+        + Thêm sinh viên
+    </a>
+</div>
+
+<div class="row">
+    <div class="col-3">
+        <div class="card shadow-sm">
+            <div class="card-header bg-primary text-white">
+                <strong>Danh sách ngành</strong>
+            </div>
+            <div class="card-body p-2">
+                @await Component.InvokeAsync("Major")
+            </div>
+        </div>
+    </div>
+
+    <div class="col-9">
+        <div class="card shadow-sm">
+            <div class="card-header bg-secondary text-white">
+                <strong>Kết quả</strong>
+            </div>
+            <div class="card-body" id="divcontent">
+                @await Html.PartialAsync("LearnerTable", Model)
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        // Click vào Major để lọc
+        $(".major-item").click(function (e) {
+            e.preventDefault();
+
+            let id = $(this).attr("id");
+
+            $.ajax({
+                url: "/Learners/LearnerByMajorId",
+                type: "GET",
+                data: { mid: id },
+                success: function (response) {
+                    $("#divcontent").html(response);
+                }
+            });
+        });
+    </script>
+}
