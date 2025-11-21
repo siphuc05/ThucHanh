@@ -1,0 +1,110 @@
+﻿@model IEnumerable<Lab5.Models.Learner>
+
+@{
+    ViewData["Title"] = "Danh sách sinh viên";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 class="mb-4 text-primary">Danh sách Sinh viên</h2>
+
+<div class="d-flex justify-content-between align-items-center mb-3">
+    <h4 class="mb-0">Lọc theo ngành</h4>
+    <a asp-action="Create" class="btn btn-success">
+        + Thêm sinh viên
+    </a>
+</div>
+
+<div class="row">
+    <div class="col-3">
+        <div class="card shadow-sm">
+            <div class="card-header bg-primary text-white">
+                <strong>Danh sách ngành</strong>
+            </div>
+            <div class="card-body p-2">
+                @await Component.InvokeAsync("Major")
+                <form class="d-none d-md-inline-block form-check-inline ms-auto me-0 me-md-3 my-2 my-md-0">
+                    <div class="input-group">
+                        <input id="keyword" class="form-control" name="keyword" type="text" placeholder="Search learner" />
+                        <button class="btn btn-primary" type="button" id="btnSearch">
+							<i class="fas fa-search"></i>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-9">
+        <div class="card shadow-sm">
+            <div class="card-header bg-secondary text-white">
+                <strong>Kết quả</strong>
+            </div>
+            <div class="card-body" id="divcontent">
+                @await Html.PartialAsync("LearnerTable", Model)
+            </div>
+        </div>
+    </div>
+</div>
+<ul class="pagination">
+    @for (int i = 1; i <= ViewBag.pageNum; i++)
+    {
+        <li class="page-item page="@i">
+            @(ViewBag.mid != null ? "mid='ViewBag.mid'" : "")
+            @(ViewBag.keyword != null ? "keyword='ViewBag.keyword'" : "")
+            <a class="page-link">@i</a>
+        </li>
+    }
+</ul>
+@section Scripts {
+    <script>
+
+        // CLICK MAJOR (lọc ngành)
+
+        $(".major-item").click(function (e) {
+            e.preventDefault();
+
+            let id = $(this).attr("id");
+            let keyword = $("#keyword").val();
+
+            loadData(id, keyword, 1);
+        });
+
+
+
+        // CLICK TÌM KIẾM
+     
+        $("#btnSearch").click(function (e) {
+            e.preventDefault();
+
+            let keyword = $("#keyword").val();
+            loadData(0, keyword, 1);
+        });
+
+
+        // CLICK TRANG PHÂN TRANG
+   
+        $(document).on("click", ".page-btn", function () {
+            let page = $(this).data("page");
+            let mid = $(this).data("mid");
+            let keyword = $("#keyword").val();
+
+            loadData(mid, keyword, page);
+        });
+
+
+        // HÀM LOAD DỮ LIỆU AJAX
+        function loadData(mid, keyword, pageIndex) {
+            $.ajax({
+                url: "/Learners/LearnerFilter",
+                type: "GET",
+                data: {
+                    mid: mid,
+                    keyword: keyword,
+                    pageIndex: pageIndex
+                },
+                success: function (response) {
+                    $("#divcontent").html(response);
+                }
+            });
+        }
+    </script>
+}

@@ -1,0 +1,12 @@
+﻿@model IEnumerable<Major>
+<ul class="nav flex-column">
+    @foreach (var m in Model)
+    {
+        <li class="nav-item major-item mb-1 p-2 bg-light border rounded"
+            id="@m.MajorId"
+            style="cursor:pointer">
+            @m.MajorName
+        </li>
+    }
+</ul>
+

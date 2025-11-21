@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\LaptrinhWeb\\Demo\\Thuchanh\\Lab6\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{82678350-BB63-44EC-93FD-27E7F57D4F4A}|Lab5.csproj|d:\\laptrinhweb\\demo\\thuchanh\\lab6\\views\\learners\\learnertable.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82678350-BB63-44EC-93FD-27E7F57D4F4A}|Lab5.csproj|solutionrelative:views\\learners\\learnertable.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82678350-BB63-44EC-93FD-27E7F57D4F4A}|Lab5.csproj|d:\\laptrinhweb\\demo\\thuchanh\\lab6\\views\\learners\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82678350-BB63-44EC-93FD-27E7F57D4F4A}|Lab5.csproj|solutionrelative:views\\learners\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82678350-BB63-44EC-93FD-27E7F57D4F4A}|Lab5.csproj|d:\\laptrinhweb\\demo\\thuchanh\\lab6\\models\\lab4codefirstcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82678350-BB63-44EC-93FD-27E7F57D4F4A}|Lab5.csproj|solutionrelative:models\\lab4codefirstcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82678350-BB63-44EC-93FD-27E7F57D4F4A}|Lab5.csproj|d:\\laptrinhweb\\demo\\thuchanh\\lab6\\controllers\\learnerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82678350-BB63-44EC-93FD-27E7F57D4F4A}|Lab5.csproj|solutionrelative:controllers\\learnerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 266,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LearnerTable.cshtml",
+              "DocumentMoniker": "D:\\LaptrinhWeb\\Demo\\Thuchanh\\Lab6\\Views\\Learners\\LearnerTable.cshtml",
+              "RelativeDocumentMoniker": "Views\\Learners\\LearnerTable.cshtml",
+              "ToolTip": "D:\\LaptrinhWeb\\Demo\\Thuchanh\\Lab6\\Views\\Learners\\LearnerTable.cshtml*",
+              "RelativeToolTip": "Views\\Learners\\LearnerTable.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-21T15:35:54.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Lab4CodeFirstContext.cs",
+              "DocumentMoniker": "D:\\LaptrinhWeb\\Demo\\Thuchanh\\Lab6\\Models\\Lab4CodeFirstContext.cs",
+              "RelativeDocumentMoniker": "Models\\Lab4CodeFirstContext.cs",
+              "ToolTip": "D:\\LaptrinhWeb\\Demo\\Thuchanh\\Lab6\\Models\\Lab4CodeFirstContext.cs",
+              "RelativeToolTip": "Models\\Lab4CodeFirstContext.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAABoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T14:50:49.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\LaptrinhWeb\\Demo\\Thuchanh\\Lab6\\Views\\Learners\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Learners\\Index.cshtml",
+              "ToolTip": "D:\\LaptrinhWeb\\Demo\\Thuchanh\\Lab6\\Views\\Learners\\Index.cshtml*",
+              "RelativeToolTip": "Views\\Learners\\Index.cshtml*",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAswBsAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-21T15:11:09.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LearnersController.cs",
+              "DocumentMoniker": "D:\\LaptrinhWeb\\Demo\\Thuchanh\\Lab6\\Controllers\\LearnersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LearnersController.cs",
+              "ToolTip": "D:\\LaptrinhWeb\\Demo\\Thuchanh\\Lab6\\Controllers\\LearnersController.cs*",
+              "RelativeToolTip": "Controllers\\LearnersController.cs*",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAiwF0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T11:57:47.255Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
